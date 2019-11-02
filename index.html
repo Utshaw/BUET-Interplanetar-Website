@@ -9,13 +9,16 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/simplelightbox.min.css">
+
 
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
     <link rel="stylesheet" href="resources/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
 
 
-    <title>BUET Interplanetar</title>
+    <title>Team Interplanetar</title>
 
 </head>
 
@@ -48,7 +51,7 @@
     <section class="section-features">
         <div class="row">
 
-            <h2>BUET Interplanetar &mdash; Who we are</h2>
+            <h2>Team Interplanetar &mdash; Who we are</h2>
 
             <p class="long-copy">
                 A team from Bangladesh University of Engineering and Technology which participates in
@@ -220,7 +223,7 @@
 
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
@@ -228,7 +231,7 @@
                 </div>
 
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
@@ -236,56 +239,56 @@
                 </div>
 
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/1.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/2.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/3.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/4.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/5.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/6.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
                     <img src="resources/img/polland/7.jpg" alt="Working with the rover">
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
@@ -301,7 +304,7 @@
                 </div>
 
 
-                <div class="grid-item">
+                <div class="grid-item moments">
                     <div class="content">
                         <h3 class="funny-text">Rover</h3>
                     </div>
@@ -323,6 +326,72 @@
     </section>
 
 
+    <section>
+
+
+        <div class="row">
+
+            <h2>Recognition from Media</h2>
+
+
+        </div>
+
+
+        <div class="container">
+
+            <div class="grid">
+
+
+
+
+                <div class="grid-col grid-col--1">
+
+                </div>
+
+                <div class="grid-col grid-col--2">
+
+                </div>
+
+                <div class="grid-col grid-col--3">
+
+                </div>
+
+
+                <div class="grid-item media">
+                    <div class="content">
+                        <h3 class="funny-text">Rover</h3>
+                    </div>
+                    <img src="resources/img/news/1.png" alt="Working with the rover">
+                </div>
+
+
+                <div class="grid-item media">
+                    <div class="content">
+                        <h3 class="funny-text">Rover</h3>
+                    </div>
+
+                    <img src="resources/img/news/2.png" alt="Working with the rover">
+
+                </div>
+
+
+                <div class="grid-item media">
+                    <div class="content">
+                        <h3 class="funny-text">Rover</h3>
+                    </div>
+
+                    <img src="resources/img/news/3.png" alt="Working with the rover">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
     <script src="https://unpkg.com/colcade@0/colcade.js"></script>
     <script>
         // selector string as first argument
@@ -334,6 +403,39 @@
 
 
     <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>
+    <script src="/vendors/js/jquery-3.4.1.min.js"></script>
+    <script src="/vendors/js/simple-lightbox.min.js"></script>
+
+    <script>
+
+        function nestImageInsideAnchorForLightBox(tagNameWithClass) {
+
+            let momentImages = document.querySelectorAll(tagNameWithClass + " img");
+            for (let i = 0; i < momentImages.length; i++) {
+                let momentImage = momentImages[i];
+
+                let mImageWrapper = document.createElement('a');
+                mImageWrapper.href = momentImage.src;
+
+
+                let parentOfMomentImage = momentImage.parentElement;
+                parentOfMomentImage.appendChild(mImageWrapper);
+                mImageWrapper.appendChild(momentImage);
+
+            }
+
+        }
+
+        nestImageInsideAnchorForLightBox("div.moments");
+        nestImageInsideAnchorForLightBox("div.media");
+
+        let mediaGallery = $('.media a').simpleLightbox();
+        let momentsGallery = $('.moments a').simpleLightbox();
+
+
+
+    </script>
+
 </body>
 
 </html>
