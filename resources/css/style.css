@@ -254,5 +254,12 @@ header {
     height: auto;
 }
 
+.grid-item {
+    /* overflow: hidden; */
+}
 
+.grid-item a img:hover {
+    /* transform: scale(1.04); */
+    /* transform: scale(1.04); */
 
+}

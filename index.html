@@ -426,11 +426,16 @@
 
         }
 
-        nestImageInsideAnchorForLightBox("div.moments");
-        nestImageInsideAnchorForLightBox("div.media");
 
-        let mediaGallery = $('.media a').simpleLightbox();
-        let momentsGallery = $('.moments a').simpleLightbox();
+
+        $(document).ready(function () {
+            nestImageInsideAnchorForLightBox("div.moments");
+            nestImageInsideAnchorForLightBox("div.media");
+            let mediaGallery = $('.media a').simpleLightbox();
+            let momentsGallery = $('.moments a').simpleLightbox();
+        });
+
+
 
 
 

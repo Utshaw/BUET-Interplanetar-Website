@@ -1,4 +1,4 @@
-img {
+.grid-item img {
   width: 100%;
 }
 
@@ -26,7 +26,7 @@ img {
 
 .content {
   position: absolute;
-  background: rgba(0, 0, 0, 0.2);
+  background: #010101;
   color: white;
   margin-top: 1em;
 }
@@ -61,6 +61,8 @@ img {
   }
   .grid-item:hover {
     cursor: pointer;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
   }
   .grid-item:hover .content {
     opacity: 1;
