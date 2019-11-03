@@ -198,7 +198,7 @@
     <section class="grey-section" id="moments-section">
         <div class="row">
 
-            <h2>Some moments</h2>
+            <h2 id="moments-header">Some moments</h2>
 
 
         </div>
@@ -334,7 +334,7 @@
 
         <div class="row">
 
-            <h2>Recognition from Media</h2>
+            <h2 id="achievements-header">Recognition from Media</h2>
 
 
         </div>
@@ -396,7 +396,7 @@
 
     <section class="grey-section" id="member-section">
         <div class="row">
-            <h2 style="margin-bottom: 5px;">Team members</h2>
+            <h2 style="margin-bottom: 5px;" id="member-header">Team members</h2>
         </div>
 
         <div class="row" style="text-align: center;margin-bottom: 10px;">
@@ -584,18 +584,33 @@
             return elementBottom > viewportTop && elementTop < viewportBottom;
         };
 
-        $(window).on('resize scroll', function () {
-            $('#about-us').each(function () {
+        function addAnimation(id, animationName) {
+
+            $('#'+ id).each(function () {
                 var activeColor = $(this).attr('id');
 
                 if ($(this).isInViewport()) {
                     // $('#fixed-' + activeColor).addClass(activeColor + '-active');
-                    $('#about-us').addClass('animated slideInDown');
+                    $('#'+id).addClass('animated ' + animationName);
                 } else {
                     // $('#fixed-' + activeColor).removeClass(activeColor + '-active');
-                    $('#about-us').removeClass('animated slideInDown');
+                    $('#'+id).removeClass('animated ' + animationName);
                 }
             });
+
+        }
+
+        $(window).on('resize scroll', function () {
+
+            addAnimation('about-us', 'slideInDown');
+            addAnimation('moments-header', 'flash');
+            addAnimation('moments-header', 'zoomIn');
+            addAnimation('achievements-header', 'zoomIn');
+            addAnimation('member-header', 'zoomIn');
+            
+
+
+
         });
     </script>
 
