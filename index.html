@@ -402,38 +402,16 @@
         <div class="row" style="text-align: center;margin-bottom: 10px;">
 
             <span class="select-box">
-                <select name="yearpicker" id="yearpicker">
+                <select name="yearpicker" id="yearpicker" onchange="fadeAnimation(this.value)">
             </span>
 
             </select>
         </div>
-        <div class="row">
 
-            <div class="team-member" style=" padding: 0 35%;">
-                <figure>
-                    <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg" alt=""
-                        class="img-responsive" width="50px">
-                    <figcaption>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.
-                        </p>
-                        <ul>
-                            <li><a class="member-link" href=""><i class="fa fa-facebook fa-2x"></i></a></li>
-                            <li><a class="member-link" href=""><i class="fa fa-twitter fa-2x"></i></a></li>
-                            <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
-                        </ul>
-                    </figcaption>
+        <div id="member-images">
+            <div class="row">
 
-                </figure>
-                <h4>John Doe</h4>
-                <p>Team Lead</p>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col span-1-of-3 box ">
-                <div class="team-member">
+                <div class="team-member" style=" padding: 0 35%;">
                     <figure>
                         <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg"
                             alt="" class="img-responsive" width="50px">
@@ -446,55 +424,83 @@
                                 <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
                             </ul>
                         </figcaption>
+
                     </figure>
                     <h4>John Doe</h4>
                     <p>Team Lead</p>
                 </div>
-                <!-- /.team-member-->
+
             </div>
 
-            <div class="col span-1-of-3 box">
-                <div class="team-member">
-                    <figure>
-                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg"
-                            alt="" class="img-responsive" width="50px">
-                        <figcaption>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.
 
-                            </p>
-                            <ul>
-                                <li><a class="member-link" href=""><i class="fa fa-facebook fa-2x"></i></a></li>
-                                <li><a class="member-link" href=""><i class="fa fa-twitter fa-2x"></i></a></li>
-                                <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
-                            </ul>
-                        </figcaption>
-                    </figure>
-                    <h4>John Doe</h4>
-                    <p>Team Lead</p>
+            <div class="row">
+                <div class="col span-1-of-3 box ">
+                    <div class="team-member">
+                        <figure>
+                            <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg"
+                                alt="" class="img-responsive" width="50px">
+                            <figcaption>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores
+                                    mollitia.
+                                </p>
+                                <ul>
+                                    <li><a class="member-link" href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                                    <li><a class="member-link" href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                                    <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                        <h4>John Doe</h4>
+                        <p>Team Lead</p>
+                    </div>
+                    <!-- /.team-member-->
                 </div>
-            </div>
 
+                <div class="col span-1-of-3 box">
+                    <div class="team-member">
+                        <figure>
+                            <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg"
+                                alt="" class="img-responsive" width="50px">
+                            <figcaption>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores
+                                    mollitia.
 
-            <div class="col span-1-of-3 box">
-                <div class="team-member">
-                    <figure>
-                        <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg"
-                            alt="" class="img-responsive" width="50px">
-                        <figcaption>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.
-                            </p>
-                            <ul>
-                                <li><a class="member-link" href=""><i class="fa fa-facebook fa-2x"></i></a></li>
-                                <li><a class="member-link" href=""><i class="fa fa-twitter fa-2x"></i></a></li>
-                                <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
-                            </ul>
-                        </figcaption>
-                    </figure>
-                    <h4>John Doe</h4>
-                    <p>Team Lead</p>
+                                </p>
+                                <ul>
+                                    <li><a class="member-link" href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                                    <li><a class="member-link" href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                                    <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                        <h4>John Doe</h4>
+                        <p>Team Lead</p>
+                    </div>
                 </div>
-            </div>
 
+
+                <div class="col span-1-of-3 box">
+                    <div class="team-member">
+                        <figure>
+                            <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg"
+                                alt="" class="img-responsive" width="50px">
+                            <figcaption>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores
+                                    mollitia.
+                                </p>
+                                <ul>
+                                    <li><a class="member-link" href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                                    <li><a class="member-link" href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                                    <li><a class="member-link" href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                        <h4>John Doe</h4>
+                        <p>Team Lead</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
 
@@ -527,7 +533,7 @@
     <script>
 
         $('body').addClass('stop-scrolling');
-        $('body').bind('touchmove', function(e){e.preventDefault()})
+        $('body').bind('touchmove', function (e) { e.preventDefault() })
 
         $(window).on("load", function () {
             $(".loader-wrapper").fadeOut("slow");
@@ -550,6 +556,12 @@
 
             }
 
+        }
+
+        function fadeAnimation(value) {
+            console.log(value);
+            
+            addAnimation('member-images', 'fadeOut');
         }
 
         function populateMemberSelection() {
@@ -586,15 +598,15 @@
 
         function addAnimation(id, animationName) {
 
-            $('#'+ id).each(function () {
+            $('#' + id).each(function () {
                 var activeColor = $(this).attr('id');
 
                 if ($(this).isInViewport()) {
                     // $('#fixed-' + activeColor).addClass(activeColor + '-active');
-                    $('#'+id).addClass('animated ' + animationName);
+                    $('#' + id).addClass('animated ' + animationName);
                 } else {
                     // $('#fixed-' + activeColor).removeClass(activeColor + '-active');
-                    $('#'+id).removeClass('animated ' + animationName);
+                    $('#' + id).removeClass('animated ' + animationName);
                 }
             });
 
@@ -607,7 +619,7 @@
             addAnimation('moments-header', 'zoomIn');
             addAnimation('achievements-header', 'zoomIn');
             addAnimation('member-header', 'zoomIn');
-            
+
 
 
 
