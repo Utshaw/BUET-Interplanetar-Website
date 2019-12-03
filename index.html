@@ -451,7 +451,7 @@
                             </figcaption>
                         </figure>
                         <h4>John Doe</h4>
-                        <p>Team Lead</p>
+                        <p>Member</p>
                     </div>
                     <!-- /.team-member-->
                 </div>
@@ -474,7 +474,7 @@
                             </figcaption>
                         </figure>
                         <h4>John Doe</h4>
-                        <p>Team Lead</p>
+                        <p>Member</p>
                     </div>
                 </div>
 
@@ -496,13 +496,92 @@
                             </figcaption>
                         </figure>
                         <h4>John Doe</h4>
-                        <p>Team Lead</p>
+                        <p>Member</p>
                     </div>
                 </div>
 
             </div>
         </div>
 
+
+    </section>
+
+    <section class="section-form">
+
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form action="#" method="post" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+
+                    </div>
+
+                    <div class="col span-2-of-3">
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+
+                    </div>
+
+                    <div class="col span-2-of-3">
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+
+                    </div>
+
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends">Friends</option>
+                            <option value="facebook" selected>Facebook</option>
+                            <option value="search">Search Engine</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">Drop us a line</label>
+
+                    </div>
+
+                    <div class="col span-2-of-3">
+                        <textarea id="message" name="message" placeholder="Your message"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">&nbsp;</label>
+
+                    </div>
+
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+
+                </div>
+
+
+            </form>
+        </div>
 
     </section>
 
@@ -560,7 +639,7 @@
 
         function fadeAnimation(value) {
             console.log(value);
-            
+
             addAnimation('member-images', 'fadeOut');
         }
 
