@@ -574,20 +574,20 @@ footer {
 }
 
 .footer-nav li , 
-.social-icons li {
+.social-links li {
     display: inline-block;
     margin-right: 20px;
 }
 
 .footer-nav li:last-child , 
-.social-icons li:last-child {
+.social-links li:last-child {
     margin-right: 0;
 }
 
 .social-links li a:link,
 .social-links li a:visited,
 .footer-nav li a:link,
-.footer-nav a:visited {
+.footer-nav li a:visited {
     text-decoration: none;
     border: 0;
     color: #888;
@@ -598,6 +598,17 @@ footer {
 .footer-nav li a:hover,
 .footer-nav li a:active {
     color: #ddd;
+}
+
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+#ion-facebook:hover {
+    color: #3b5998;
+    transition:  color 0.2s;
 }
 
 footer p {
