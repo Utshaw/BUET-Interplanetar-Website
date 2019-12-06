@@ -8,12 +8,31 @@
 
     }
 
+    .row {
+        padding: 0 2%;
+    }
+
+   
+    
 }
 
 
 /* ipad in portrait mode small tablet to big tablet from 768px - 1023px */
 @media only screen and (max-width: 1023px){
+    body {
+        font-size: 18px;
+    }
 
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+
+        width: 80%;
+        margin-left: 15%;
+
+    }
 }
 
 /* <= 767px smaller than the ipad from 481px - 767px */
