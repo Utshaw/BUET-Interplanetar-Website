@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="shortcut icon" type="image/png" href="resources/img/logo.png"/>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -34,29 +35,29 @@
 
 <body>
 
-    <header>
+    <header id="home">
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="BUET Interplanetar logo" class="logo">
                 <img src="resources/img/logo-2.png" alt="BUET Interplanetar logo" class="logo-color">
 
                 <ul class="main-nav">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#member-section">MEMBERS</a></li>
                     <!-- <li><a href="#member-section">MENTORS</a></li> -->
                     <li><a href="#achievements-section">ACHIEVEMENTS</a></li>
                     <li><a href="#moments-section">EXPERIENCE</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">SPONSORS</a></li>
+                    <li><a href="#section-message">CONTACT</a></li>
+                    <li><a href="#section-sponsors">SPONSORS</a></li>
 
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1 class="main-name animated slideInDown">BUET MARS ROVER TEAM</h1>
-            <a class="btn btn-full" href="#">Our Achievements</a>
-            <a class="btn btn-ghost" href="#">Contact Us</a>
+            <a class="btn btn-full js--scroll-to-achievements" href="#">Our Achievements</a>
+            <a class="btn btn-ghost js--scroll-to-message" href="#">Contact Us</a>
         </div>
     </header>
 
@@ -516,7 +517,7 @@
     </section>
 
 
-    <section class="section-cities">
+    <section class="section-cities" id="section-sponsors">
         <div class="row">
             <h2>Our Honorable Sponsors</h2>
         </div>
@@ -541,7 +542,7 @@
 
     </section>
 
-    <section class="section-form">
+    <section class="section-form" id="section-message">
 
         <div class="row">
             <h2>We're happy to hear from you</h2>
