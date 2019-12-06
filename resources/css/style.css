@@ -17,13 +17,15 @@ Orange color: #e67e22
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .grey-section {
@@ -330,6 +332,8 @@ header {
     text-align: center;
 }
 
+
+
 .select-box {}
 
 
@@ -522,6 +526,9 @@ header {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.team-lead {
+    padding: 0 35%;
+}
 
 /* ----------------------------------------------- */
 
@@ -629,3 +636,11 @@ footer p {
     height: auto;
     margin-bottom: 15px;
 }
+
+/* .sponsor-img-div {
+
+    width: 100%;
+    /* height: auto; */
+    /* margin-bottom: 10px; */
+} */
+
