@@ -61,7 +61,7 @@
         </div>
     </header>
 
-    <section class="section-features js--section-features" id="about">
+    <section class="section-features js--section-features js--wp-1" id="about">
         <div class="row">
 
             <h2 id="about-us">Team Interplanetar &mdash; Who we are</h2>
@@ -517,7 +517,7 @@
     </section>
 
 
-    <section class="section-cities" id="section-sponsors">
+    <section class="section-cities js--wp-2" id="section-sponsors">
         <div class="row">
             <h2>Our Honorable Sponsors</h2>
         </div>
@@ -670,7 +670,7 @@
     <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>
     <script src="/vendors/js/jquery-3.4.1.min.js"></script>
     <script src="/vendors/js/simple-lightbox.min.js"></script>
-    <script src="/vendors/js/anime.min.js"></script>
+    <!-- <script src="/vendors/js/anime.min.js"></script> -->
     <script src="/vendors/js/jquery.waypoints.min.js"></script>
     
     <script src="resources/js/script.js"></script>
@@ -742,21 +742,21 @@
             return elementBottom > viewportTop && elementTop < viewportBottom;
         };
 
-        function addAnimation(id, animationName) {
+        // function addAnimation(id, animationName) {
 
-            $('#' + id).each(function () {
-                var activeColor = $(this).attr('id');
+        //     $('#' + id).each(function () {
+        //         var activeColor = $(this).attr('id');
 
-                if ($(this).isInViewport()) {
-                    // $('#fixed-' + activeColor).addClass(activeColor + '-active');
-                    $('#' + id).addClass('animated ' + animationName);
-                } else {
-                    // $('#fixed-' + activeColor).removeClass(activeColor + '-active');
-                    $('#' + id).removeClass('animated ' + animationName);
-                }
-            });
+        //         if ($(this).isInViewport()) {
+        //             // $('#fixed-' + activeColor).addClass(activeColor + '-active');
+        //             $('#' + id).addClass('animated ' + animationName);
+        //         } else {
+        //             // $('#fixed-' + activeColor).removeClass(activeColor + '-active');
+        //             $('#' + id).removeClass('animated ' + animationName);
+        //         }
+        //     });
 
-        }
+        // }
 
         // $(window).on('resize scroll', function () {
 
