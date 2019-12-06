@@ -74,8 +74,26 @@
         margin-bottom: 5px;
     }
 
-    .main-nav {
+    /* .main-nav {
         display: none;
+    } */
+
+    .main-nav {
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
     }
 
     h1 {
