@@ -64,9 +64,10 @@
     .team-lead {
         margin: 0 auto;
     }
-    .sponsor-img-div,
-    .member-img {
-        width: 50%;
+    .sponsor-img-div
+    ,.member-img 
+    {
+        width: 33.33%;
         height: auto;
     }
     .box img {
