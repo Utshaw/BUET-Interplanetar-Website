@@ -80,6 +80,19 @@ $(document).ready(function () {
             offset: '50%'
         });
 
+        // Mobile nav
+        $('.js--nav-icon').click(function() {
+            var nav = $('.js--main-nav');
+            var icon = $('#menu-burger');
+            nav.slideToggle(200); // in milisecond(s)
+            if(icon.attr('name') === "menu")  {
+                icon.attr('name', 'close');
+            }else{
+                icon.attr('name', 'menu');
+            }
+            
+
+        });
         
 
 });
