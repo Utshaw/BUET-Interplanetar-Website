@@ -713,6 +713,7 @@ footer p {
 .js--wp-1
 {
     opacity: 0;
+    animation-duration: 1s;
 }
 
 
