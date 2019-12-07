@@ -48,7 +48,7 @@
                     <li><a href="#member-section">MEMBERS</a></li>
                     <!-- <li><a href="#member-section">MENTORS</a></li> -->
                     <li><a href="#achievements-section">ACHIEVEMENTS</a></li>
-                    <li><a href="#moments-section">EXPERIENCE</a></li>
+                    <li><a href="#experience-section">EXPERIENCE</a></li>
                     <li><a href="#section-message">CONTACT</a></li>
                     <li><a href="#section-sponsors">SPONSORS</a></li>
 
@@ -408,6 +408,94 @@
 
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Experience -->
+
+    <section id="experience-section">
+
+
+        <div class="row">
+
+            <h2 id="experience-header">Experience</h2>
+
+
+        </div>
+
+
+        <div class="container">
+
+            <div class="grid">
+
+
+
+
+                <div class="grid-col grid-col--1">
+
+                </div>
+
+                <div class="grid-col grid-col--2">
+
+                </div>
+
+                <div class="grid-col grid-col--3">
+
+                </div>
+
+
+                <div class="grid-item exp">
+                    <div class="content">
+                        <h3 class="funny-text"> <ion-icon name="search"></ion-icon></h3>
+                    </div>
+                    <img src="resources/img/experience/ex-1.jpg" alt="Successfully passed Preliminary Design Review submission round in URC – 2018, USA">
+                </div>
+
+
+                <div class="grid-item exp">
+                    <div class="content">
+                        <h3 class="funny-text"> <ion-icon name="search"></ion-icon></h3>
+                    </div>
+
+                    <img src="resources/img/experience/ex-2.jpg" alt="Achieved 5th position in Phobos group in University Rover Challenge – 2016, USA">
+
+                </div>
+
+
+                <div class="grid-item exp">
+                    <div class="content">
+                        <h3 class="funny-text"> <ion-icon name="search"></ion-icon></h3>
+                    </div>
+
+                    <img src="resources/img/experience/ex-3.png" alt="Successful participation in International Mars Rover Contest, ERC – 2015, Poland ">
+
+                </div>
+
+
+                <div class="grid-item exp">
+                    <div class="content">
+                        <h3 class="funny-text"> <ion-icon name="search"></ion-icon></h3>
+                    </div>
+
+                    <img src="resources/img/experience/ex-4.jpg" alt="Successful participation in International Mars Rover Contest, ERC – 2015, Poland ">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
 
 
     <section class="grey-section" id="member-section">
@@ -1607,7 +1695,9 @@
         $(document).ready(function () {
             nestImageInsideAnchorForLightBox("div.moments");
             nestImageInsideAnchorForLightBox("div.media");
+            nestImageInsideAnchorForLightBox("div.exp");
             let mediaGallery = $('.media a').simpleLightbox();
+            let expGallery = $('.exp a').simpleLightbox();
             let momentsGallery = $('.moments a').simpleLightbox();
 
             // populateMemberSelection();
