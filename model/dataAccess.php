@@ -17,8 +17,8 @@ class DAO
     { }
 
 
-    
-    public function addCompany($message)
+
+    public function addMessage($message)
     {
         global $pdo;
         $sql = "INSERT INTO Message(Name, Email, Message, FindSourceID, RecordCreated ) VALUES(:name, :email, :message, :findSourceID, :recordCreated)";
