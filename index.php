@@ -1,3 +1,7 @@
+<?php 
+    require_once './controller/messageController.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -2229,7 +2233,6 @@
                 <div class="row">
                     <div class="col span-1-of-3">
                         <label for="name">Name</label>
-
                     </div>
 
                     <div class="col span-2-of-3">
@@ -2259,10 +2262,10 @@
 
                     <div class="col span-2-of-3">
                         <select name="find-us" id="find-us">
-                            <option value="friends">Friends</option>
-                            <option value="facebook" selected>Facebook</option>
-                            <option value="search">Search Engine</option>
-                            <option value="other">Other</option>
+                            <option value="1">Friends</option>
+                            <option value="2" selected>Facebook</option>
+                            <option value="3">Search Engine</option>
+                            <option value="4">Other</option>
                         </select>
                     </div>
 
@@ -2287,7 +2290,7 @@
                     </div>
 
                     <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!">
+                        <input type="submit" value="Send it!" >
                     </div>
 
                 </div>
