@@ -1,8 +1,8 @@
 # [BUET-Interplanetar-Website](https://buetinterplanetar.com/) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) 
 # Hosting
 ## Installation
-- Add dbconnection.php file which must be included inside model folder <br />
-File format(dbconnection.php):
+- Add `dbconnection.php` file which must be included inside `model` folder <br />
+File format(`dbconnection.php`):
 ```
 <?php
 class DBConn {
