@@ -1,4 +1,4 @@
-# BUET-Interplanetar-Website
+# [BUET-Interplanetar-Website](https://buetinterplanetar.com/)
 ## Installation
 - dbconnection.php file must be included under model folder <br />
 File format(dbconnection.php):
