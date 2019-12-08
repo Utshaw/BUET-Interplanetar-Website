@@ -1,4 +1,7 @@
 # [BUET-Interplanetar-Website](https://buetinterplanetar.com/) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) 
+
+<img src="resources/img/logo.png" align="right" width="100px" alt="Team Interplanetar logo">
+
 # Hosting
 ## Installation
 - Add `dbconnection.php` file which must be included inside `model` folder <br />
