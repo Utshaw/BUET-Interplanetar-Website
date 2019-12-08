@@ -3,7 +3,7 @@
 <img src="resources/img/logo.png" align="right" width="100px" alt="Team Interplanetar logo">
 
 ## Hosting
-- Add `dbconnection.php` file which must be included inside `model` folder <br />
+- Add `dbconnection.php` file inside `model` folder <br />
 File format(`dbconnection.php`):
 ```
 <?php
