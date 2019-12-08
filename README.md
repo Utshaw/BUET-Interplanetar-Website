@@ -1,6 +1,7 @@
 # [BUET-Interplanetar-Website](https://buetinterplanetar.com/) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) 
+# Hosting
 ## Installation
-- dbconnection.php file must be included under model folder <br />
+- Add dbconnection.php file which must be included inside model folder <br />
 File format(dbconnection.php):
 ```
 <?php
@@ -29,6 +30,6 @@ class DBConn {
 
 }
 ```
-
+- Upload the full folder inside `public_html`
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by <a href="https://github.com/Utshaw" target="_blank">Utshaw</a>
