@@ -1,7 +1,7 @@
 # BUET-Interplanetar-Website
 ## Installation
 - dbconnection.php file must be included under model folder <br />
-File format:
+File format(dbconnection.php):
 ```
 <?php
 class DBConn {
