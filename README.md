@@ -3,7 +3,7 @@
 <img src="resources/img/logo.png" align="right" width="100px" alt="Team Interplanetar logo">
 
 ## Hosting
-- Add `dbconnection.php` file inside `model` folder <br />
+- Add `dbconnection.php` file inside `model` directory <br />
 File format(`dbconnection.php`):
 ```
 <?php
@@ -32,6 +32,6 @@ class DBConn {
 
 }
 ```
-- Upload the full folder inside `public_html`
+- Upload the full repository contents inside `public_html`
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by <a href="https://github.com/Utshaw" target="_blank">Utshaw</a>
