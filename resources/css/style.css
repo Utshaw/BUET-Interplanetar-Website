@@ -674,6 +674,11 @@ footer {
     transition:  color 0.2s;
 }
 
+#ion-youtube:hover {
+    color: #ff0000;
+    transition:  color 0.2s;
+}
+
 footer p {
     color: #888;
     text-align: center;
