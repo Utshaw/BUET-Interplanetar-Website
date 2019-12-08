@@ -15,7 +15,7 @@ class DBConn {
         $this->servername = "<servername>";
         $this->username = "<username>";
         $this->password = "<password>";
-        $this->dbname = "buetinte_planet";
+        $this->dbname = "<db_name>";
         $this->charset = "utf8mb4";
         try {
             $dsn = "mysql:host=".$this->servername.";dbname=".$this->dbname.";charset=".$this->charset;
