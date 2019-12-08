@@ -21,14 +21,16 @@ class DAO
     public function addMessage($message)
     {
         global $pdo;
-        $sql = "INSERT INTO Message(Name, Email, Message, FindSourceID, RecordCreated ) VALUES(:name, :email, :message, :findSourceID, :recordCreated)";
+        $sql = "INSERT INTO Message(Name, Email, Message, FindSourceID ) VALUES(:name, :email, :message, :findSourceID)";
         $statement = $pdo->prepare($sql);
+        // $date = new DateTime("now", new DateTimeZone('Asia/Dhaka') );
+        
 
         $statement->bindValue(':name', $message->NAME, PDO::PARAM_STR);
         $statement->bindValue(':email', $message->EMAIL, PDO::PARAM_STR);
         $statement->bindValue(':message', $message->MESSAGE, PDO::PARAM_STR);
         $statement->bindValue(':findSourceID', $message->FIND_SOURCE_ID, PDO::PARAM_STR);
-        $statement->bindValue(':recordCreated', now(), PDO::PARAM_STR);
+        // $statement->bindValue(':recordCreated', $date->format('Y-m-d H:i:s'), PDO::PARAM_STR);
         $statement->execute();
         $id = $pdo->lastInsertId();
 
