@@ -1,2 +1,3 @@
 # BUET-Interplanetar-Website
-- dbconnection.php file should be included under model folder
+## Installation
+- dbconnection.php file must be included under model folder 
