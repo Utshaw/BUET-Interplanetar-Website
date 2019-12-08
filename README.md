@@ -32,6 +32,7 @@ class DBConn {
 
 }
 ```
+- `servername` is either `localhost` or the "Shared IP Address" found in cPanel's main menu's right section 
 - Upload the full repository contents inside `public_html`
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by <a href="https://github.com/Utshaw" target="_blank">Utshaw</a>
