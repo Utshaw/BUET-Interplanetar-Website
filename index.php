@@ -1,5 +1,5 @@
-<?php 
-    require_once './controller/messageController.php';
+<?php
+require_once './controller/messageController.php';
 ?>
 
 <!DOCTYPE html>
@@ -119,8 +119,7 @@
         <div class="row">
             <div class="col span-1-of-2 box ">
                 <div class="iframe-container">
-                    <<iframe width="560" height="315" src="https://www.youtube.com/embed/dBPkO6nYWxQ" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <<iframe width="560" height="315" src="https://www.youtube.com/embed/dBPkO6nYWxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                 </div>
             </div>
@@ -128,9 +127,7 @@
 
             <div class="col span-1-of-2 box">
                 <div class="iframe-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/61lXAQMWtgU" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/61lXAQMWtgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -200,11 +197,11 @@
 
                     <div class="team-member">
                         <figure>
-                            <img src="resources/img/members/2020/lead.png" alt="" class="img-responsive">
+                            <img src="resources/img/members/2020/science/science-lead.jpg" alt="" class="img-responsive">
 
                         </figure>
-                        <a target="_blank" href="https://www.facebook.com/fa.irfan">
-                            <h4>Fahim Ahmed Irfan</h4>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100015697725287">
+                            <h4>Anirban Chakraborty</h4>
                         </a>
                         <p>Team Leader</p>
                     </div>
@@ -223,12 +220,11 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2020/Communication-Software/parvej.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/Communication-Software/utshaw150.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/misujurrahman.parvez">
-                                    <h4>Mishuzur Rahman Parvez</h4>
+                                    <h4>Farhan Tanvir Utshaw</h4>
                                 </a>
                                 <p>Group Leader</p>
                             </div>
@@ -236,41 +232,6 @@
                     </div>
 
 
-                    <div class="row">
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/Communication-Software/utshaw.png" alt=""
-                                        class="img-responsive">
-
-                                </figure>
-                                <a href="https://www.facebook.com/uttshaw">
-                                    <h4>Farhan Tanvir Utshaw</h4>
-                                </a>
-                            </div>
-
-
-                        </div>
-
-
-
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/Communication-Software/com-2.png" alt=""
-                                        class="img-responsive">
-
-                                </figure>
-                                <a href="https://www.facebook.com/abrar.istiakakib">
-                                    <h4>Md. Abrar Istiak</h4>
-                                </a>
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
 
                 </div>
 
@@ -288,12 +249,11 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2020/Mechanical/mech-lead.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/Mechanical/mech-1_150.png" alt="" class="img-responsive">
 
                                 </figure>
-                                <a href="https://www.facebook.com/fa.irfan">
-                                    <h4>Mamun Al Hasan</h4>
+                                <a href="https://www.facebook.com/waheduzzaman.nouman">
+                                    <h4>Md. Waheduzzaman Nouman</h4>
                                 </a>
 
                                 <p>Group Leader</p>
@@ -303,11 +263,10 @@
 
 
                     <div class="row">
-                        <div class="col span-1-of-6 box member-img">
+                        <!-- <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2020/Mechanical/mech-1.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/Mechanical/mech-1.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -317,29 +276,14 @@
                             </div>
 
 
-                        </div>
+                        </div> -->
 
 
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/Mechanical/mech-2.png" alt=""
-                                        class="img-responsive">
-
-                                </figure>
-                                <a href="https://www.facebook.com/AtomBuetME">
-                                    <h4>Anutam Bairagi</h4>
-                                </a>
-                            </div>
-
-
-                        </div>
 
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2020/Mechanical/mech-3.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/Mechanical/mech-3.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -351,21 +295,7 @@
 
                         </div>
 
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/Mechanical/mech-4.jpg" alt=""
-                                        class="img-responsive">
-
-                                </figure>
-                                <a href="https://www.facebook.com/de.cruxader">
-                                    <h4>Xavier hebol D Cruze</h4>
-                                </a>
-
-                            </div>
-
-                        </div>
-
+                    
                     </div>
 
                 </div>
@@ -400,8 +330,7 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2020/electrical/lead.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/electrical/lead.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/shakil7531">
@@ -420,8 +349,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2020/electrical/elec-1.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/electrical/elec-1.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -433,37 +361,8 @@
 
                         </div>
 
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/electrical/elec-2.png" alt=""
-                                        class="img-responsive">
-
-                                </figure>
-                                <a href="https://www.facebook.com/nzb.k.chowdhury">
-                                    <h4>Nayeeb Rashid</h4>
-                                </a>
-                            </div>
 
 
-                        </div>
-
-
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/electrical/elec-3.png" alt=""
-                                        class="img-responsive">
-
-                                </figure>
-
-                                <a href="https://www.facebook.com/azadrahman.sajib">
-                                    <h4>Azad Rahman Sajib</h4>
-                                </a>
-                            </div>
-
-
-                        </div>
 
                     </div>
                 </div>
@@ -481,8 +380,7 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2020/science/science-lead.jpg" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2020/science/science-lead.jpg" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/profile.php?id=100015697725287">
@@ -494,24 +392,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/science/science-2.png" alt=""
-                                        class="img-responsive">
 
-                                </figure>
-
-                                <a href="https://www.facebook.com/alfajuddin.ahmed">
-                                    <h4>Alfaj Uddin Ahmed</h4>
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                    </div>
 
                 </div>
 
@@ -596,6 +477,24 @@
 
                     </div>
 
+
+
+                    <div class="col span-1-of-6 box member-img">
+                        <div style="text-align: center;">
+                            <figure>
+                                <img src="resources/img/members/2020/non-tech/non-4.png" alt="" class="img-responsive">
+
+                            </figure>
+
+                            <a href="https://www.facebook.com/shakib.mahmud.ayon002">
+                                <h4>Shakib Mahmud Ayon</h4>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
                 </div>
 
             </div>
@@ -648,8 +547,7 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-lead.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-lead.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/ham.purush">
@@ -665,8 +563,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-1.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-1.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/mahmudurrashid.shourov">
@@ -682,8 +579,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-2.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-2.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/reaz.shafqat">
@@ -698,8 +594,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-3.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-3.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/ishat.raihan">
@@ -715,8 +610,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-4.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-4.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -732,8 +626,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-5.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-5.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -749,8 +642,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-6.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-6.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/Reivaxlobehezurcd">
@@ -769,8 +661,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-7.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-7.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -787,8 +678,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/mechanical/mech-8.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/mechanical/mech-8.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/sakib.ahmed.0710">
@@ -818,8 +708,7 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2019/electrical/electrical-leader.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/electrical/electrical-leader.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/fa.irfan">
@@ -836,8 +725,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/electrical/electrical-1.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/electrical/electrical-1.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -853,8 +741,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/electrical/electrical-2.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/electrical/electrical-2.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/azadrahman.sajib">
@@ -868,8 +755,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/electrical/electrical-3.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/electrical/electrical-3.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -884,8 +770,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/electrical/electircal-4.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/electrical/electircal-4.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/i.am.not.your.baby.unicorn">
@@ -913,8 +798,7 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2019/software/software-lead.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/software/software-lead.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/arghyachatterjee.jony">
@@ -930,8 +814,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/software/software-1.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/software/software-1.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -946,8 +829,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/software/software-2.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/software/software-2.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/azadrahman.sajib">
@@ -962,8 +844,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/software/software-3.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/software/software-3.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -990,8 +871,7 @@
                         <div class="" style="display: inline-block;">
                             <div class="team-member">
                                 <figure>
-                                    <img src="resources/img/members/2019/science/science-lead.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/science/science-lead.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/asrafulhasan.opu.5">
@@ -1007,8 +887,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/science/science-1.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/science/science-1.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -1023,8 +902,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/science/science-2.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/science/science-2.png" alt="" class="img-responsive">
 
                                 </figure>
                                 <a href="https://www.facebook.com/tahmid.hossain.75">
@@ -1038,8 +916,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/science/science-3.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/science/science-3.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -1054,8 +931,7 @@
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
-                                    <img src="resources/img/members/2019/science/science-4.png" alt=""
-                                        class="img-responsive">
+                                    <img src="resources/img/members/2019/science/science-4.png" alt="" class="img-responsive">
 
                                 </figure>
 
@@ -1711,9 +1587,7 @@
                             <ion-icon name="search"></ion-icon>
                         </h3>
                     </div>
-                    <img src="resources/img/experience/ex-1.jpg"
-                        alt="Successfully passed Preliminary Design Review submission round in URC – 2018, USA"
-                        title="Successfully passed Preliminary Design Review submission round in URC – 2018, USA">
+                    <img src="resources/img/experience/ex-1.jpg" alt="Successfully passed Preliminary Design Review submission round in URC – 2018, USA" title="Successfully passed Preliminary Design Review submission round in URC – 2018, USA">
                 </div>
 
 
@@ -1724,23 +1598,7 @@
                         </h3>
                     </div>
 
-                    <img src="resources/img/experience/ex-2.jpg"
-                        alt="Achieved 5th position in Phobos group in University Rover Challenge – 2016, USA"
-                        title="Achieved 5th position in Phobos group in University Rover Challenge – 2016, USA">
-
-                </div>
-
-
-                <div class="grid-item exp">
-                    <div class="content">
-                        <h3 class="funny-text">
-                            <ion-icon name="search"></ion-icon>
-                        </h3>
-                    </div>
-
-                    <img src="resources/img/experience/ex-3.png"
-                        alt="Successful participation in International Mars Rover Contest, ERC – 2015, Poland "
-                        title="Successful participation in International Mars Rover Contest, ERC – 2015, Poland ">
+                    <img src="resources/img/experience/ex-2.jpg" alt="Achieved 5th position in Phobos group in University Rover Challenge – 2016, USA" title="Achieved 5th position in Phobos group in University Rover Challenge – 2016, USA">
 
                 </div>
 
@@ -1752,9 +1610,19 @@
                         </h3>
                     </div>
 
-                    <img src="resources/img/experience/ex-4.jpg"
-                        alt="Successful participation in International Mars Rover Contest, ERC – 2015, Poland "
-                        title="Successful participation in International Mars Rover Contest, ERC – 2015, Poland ">
+                    <img src="resources/img/experience/ex-3.png" alt="Successful participation in International Mars Rover Contest, ERC – 2015, Poland " title="Successful participation in International Mars Rover Contest, ERC – 2015, Poland ">
+
+                </div>
+
+
+                <div class="grid-item exp">
+                    <div class="content">
+                        <h3 class="funny-text">
+                            <ion-icon name="search"></ion-icon>
+                        </h3>
+                    </div>
+
+                    <img src="resources/img/experience/ex-4.jpg" alt="Successful participation in International Mars Rover Contest, ERC – 2015, Poland " title="Successful participation in International Mars Rover Contest, ERC – 2015, Poland ">
 
                 </div>
 
@@ -1784,7 +1652,7 @@
                         <h4>Dr. Md. Ashiqur Rahman</h4>
 
                         <p>TEAM SUPERVISOR</p>
-                        <p>Professor</p>
+                        <p>Associate Professor</p>
                         <p>Department of Mechanical Engineering</p>
                         <p>Bangladesh University of Engineering and Technology</p>
                         <p>Dhaka, Bangladesh.</p>
@@ -1800,9 +1668,72 @@
 
                     </div>
 
-
-
                     <div class="row">
+                        <div class="col span-1-of-6 box member-img">
+                            <div style="text-align: center;">
+                                <figure>
+                                    <img src="resources/img/members/2020/Mechanical/mech-lead.png" alt="" class="img-responsive">
+
+                                </figure>
+                                <h4>Mamun Al Hasan</h4>
+                                <p>Product Design & Development</p>
+                                <p> Involute Tech BD</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col span-1-of-6 box member-img">
+                            <div style="text-align: center;">
+                                <figure>
+                                    <img src="resources/img/members/2019/software/software-lead.png" alt="" class="img-responsive">
+
+                                </figure>
+                                <h4>Arghya Chatterjee</h4>
+                                <p>Research Assistant</p>
+                                <p>Model & Project Lab, BUET</p>
+                            </div>
+                        </div>
+
+                        <div class="col span-1-of-6 box member-img">
+                            <div style="text-align: center;">
+                                <figure>
+                                    <img src="resources/img/members/2020/Communication-Software/parvej.png" alt="" class="img-responsive">
+
+                                </figure>
+                                <h4>Mishuzur Rahman Parvez</h4>
+                                <p>Engineer</p>
+                                <p>Product Design & Development</p>
+                                <p> Involute Tech BD</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col span-1-of-6 box member-img">
+                            <div style="text-align: center;">
+                                <figure>
+                                    <img src="resources/img/members/2020/lead.png" alt="" class="img-responsive">
+
+                                </figure>
+                                <h4>Fahim Ahmed Irfan</h4>
+                                <p>Junior Software Developer</p>
+                                <p>Nextgen Digitech V.O.F</p>
+                            </div>
+                        </div>
+
+                        <div class="col span-1-of-6 box member-img">
+                            <div style="text-align: center;">
+                                <figure>
+                                    <img src="resources/img/members/2016/2016-13.png" alt="" class="img-responsive">
+
+                                </figure>
+                                <h4>Asraful Hasan Apu</h4>
+                                <p> Assistant Engineer R&D division</p>
+                                <p>Energypac Engineering Ltd </p>
+                            </div>
+                        </div>
+
+
                         <div class="col span-1-of-6 box member-img">
                             <div style="text-align: center;">
                                 <figure>
@@ -1815,6 +1746,15 @@
                                 <p>Northern University</p>
                             </div>
                         </div>
+
+
+
+
+
+                    </div>
+
+
+                    <div class="row">
 
 
 
@@ -2221,6 +2161,13 @@
             </div>
         </div>
 
+        <div class="row" style="text-align: center;">
+            <div class="col span-2-of-6 box sponsor-img-div">
+                <img src="resources/img/sponsors/ict.jpg" alt="Sponsor image" class="sponsor-img">
+            </div>
+
+        </div>
+
     </section>
 
     <section class="section-form" id="section-message">
@@ -2228,7 +2175,23 @@
         <div class="row">
             <h2>We're happy to hear from you</h2>
         </div>
+
+        <div class="row" style="text-align: center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.602055470808!2d90.39079895067684!3d23.72590089555276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8dd436bf19b%3A0x1ebdf28957cc329b!2sFaculty%20of%20Mechanical%20Engineering!5e0!3m2!1sen!2sbd!4v1594371020413!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <p class="long-copy" style="font-weight: bold">
+                Model and Project Lab, Department of Mechanical Engineering, BUET, Dhaka-1000 <br />
+                Contact number: +8801757148635 <br />
+                Email: interplanetar.buet@gmail.com <br />
+
+            </p>
+            <!-- Model and Project Lab, Department of Mechanical Engineering, BUET, Dhaka-1000 <br />
+            Contact number: +8801757148635<br />
+            Email: interplanetar.buet@gmail.com<br /> -->
+        </div>
+            
         <div class="row">
+
             <form action="#" method="post" class="contact-form">
                 <div class="row">
                     <div class="col span-1-of-3">
@@ -2290,7 +2253,7 @@
                     </div>
 
                     <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!" >
+                        <input type="submit" value="Send it!">
                     </div>
 
                 </div>
@@ -2298,6 +2261,9 @@
 
             </form>
         </div>
+
+
+        
 
     </section>
 
@@ -2329,13 +2295,12 @@
 
         <div class="row">
             <p>
-                Copyright &copy; 2019 by BUET Interplanetar. All rights reserved
+                Copyright &copy; 2020 by BUET Interplanetar. All rights reserved
             </p>
 
 
             <p>
-                Build with <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i> by <a target="_blank"
-                    href="https://github.com/Utshaw">Utshaw</a>
+                Build with <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i> by <a target="_blank" href="https://github.com/Utshaw">Utshaw</a>
             </p>
 
 
@@ -2368,9 +2333,11 @@
 
     <script src="resources/js/script.js"></script>
 
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet" />
+
 
     <script>
-
         // $('body').addClass('stop-scrolling');
         // $('body').bind('touchmove', function (e) { e.preventDefault() })
 
@@ -2418,7 +2385,7 @@
 
 
 
-        $(document).ready(function () {
+        $(document).ready(function() {
             nestImageInsideAnchorForLightBox("div.moments");
             nestImageInsideAnchorForLightBox("div.media");
             nestImageInsideAnchorForLightBox("div.exp");
@@ -2432,7 +2399,7 @@
         });
 
 
-        $.fn.isInViewport = function () {
+        $.fn.isInViewport = function() {
             var elementTop = $(this).offset().top;
             var elementBottom = elementTop + $(this).outerHeight();
 
@@ -2444,7 +2411,7 @@
 
         function addAnimation(id, animationName) {
 
-            $('#' + id).each(function () {
+            $('#' + id).each(function() {
                 var activeColor = $(this).attr('id');
 
                 if ($(this).isInViewport()) {
@@ -2467,6 +2434,33 @@
         //     addAnimation('member-header', 'zoomIn');
 
         // });
+
+    //     // Initialize and add the map
+    //     function initMap() {
+    //         // The location of Uluru 23.726193, 90.394184
+    //         var uluru = {
+    //             lat: 23.726193,
+    //             lng: 90.394184
+    //         };
+    //         // The map, centered at Uluru
+    //         var map = new google.maps.Map(
+    //             document.getElementById('map'), {
+    //                 zoom: 4,
+    //                 center: uluru
+    //             });
+    //         // The marker, positioned at Uluru
+    //         var marker = new google.maps.Marker({
+    //             position: uluru,
+    //             map: map
+    //         });
+    //     }
+    
+    // <!--Load the API from the specified URL
+    // * The async attribute allows the browser to render the page while the API loads
+    // * The key parameter will contain your own API key (which is not needed for this tutorial)
+    // * The callback parameter executes the initMap() function
+    // -->
+    
     </script>
 
 </body>
