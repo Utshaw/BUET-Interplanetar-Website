@@ -2166,7 +2166,13 @@ require_once './controller/messageController.php';
                 <img src="resources/img/sponsors/ict.jpg" alt="Sponsor image" class="sponsor-img">
             </div>
 
+            <div class="col span-2-of-6 box sponsor-img-div">
+                <img src="resources/img/sponsors/ankur.png" alt="Sponsor image" class="sponsor-img">
+            </div>
+
         </div>
+
+
 
     </section>
 
