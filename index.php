@@ -170,7 +170,7 @@ require_once './controller/messageController.php';
             <h2>Our Rovers</h2>
             <h3 class="rover-name">M o n g o l- E v 4</h3>
 
-            <!-- <img src="resources/img/rovers/Mongol_E_v4_ERC-2020.jpeg" class="rover-image"> -->
+            <img src="resources/img/rovers/Mongol_e_v4-02.jpeg" class="rover-image">
 
 
             <h3 style="font-weight: bold;">ERC 2019</h1>
