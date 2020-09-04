@@ -16,3 +16,5 @@ if(isset($_POST['message'])) {
 
     $daoObject->addMessage($message);
 }
+
+?>

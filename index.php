@@ -80,46 +80,186 @@ require_once './controller/messageController.php';
             </p>
         </div>
 
-        <div class="row js--wp-1">
+        <div class="row">
             <div class="col span-1-of-2 box ">
                 <ion-icon name="flash" class="icon-big"></ion-icon>
-                <h3>MOTIVATION</h3>
+                <h3>OUR MOTIVATION</h3>
                 <p>
-                    Our motivation is our predecessors who achieved 5th position in Phobos Group at University Rover
-                    Challenge (URC) – 2016 on Mars Desert Research Station at Hanksville of Utah state in USA.
+                What does it take to build a perfect Mars Rover ? We believe the motivation from our teachers, seniors and the people of the country is taking us towards building the perfect mars rover. Our people believe in us. They have hopes. And this motivates us every second. Our teachers always support us and show the right path. Our motivation is our predecessors who achieved 5th position in Phobos Group at University Rover Challenge (URC) – 2016 on Mars Desert Research Station at Hanksville of Utah state in USA. 
                 </p>
             </div>
 
             <div class="col span-1-of-2 box">
                 <ion-icon name="eye" class="icon-big"></ion-icon>
-                <h3>VISION</h3>
+                <h3>OUR VISION</h3>
                 <p>
-                    Our vision is to participate for winning Rover Challenges across the globe in order to make BUET as
-                    well as Bangladesh proud.
+                We want to build and design a world class Mars Rover which will be perfect for the Martian environment and will help mankind and the nation  to know & research the use of space technology for technological advancement. Our vision is to participate in international rover challenges across the globe for winning in order to make our country proud. We have hope to be one of the renowned and the best Mars Rover Team in the world. 
 
                 </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <h2>Our Team Subgroups</h2>
+
+            <img src="resources/img/erc-20.jpeg" class="rover-image">
+
+            <div class="row">
+                <div class="col span-1-of-2 box ">
+                    <img src="./resources/img/electrical.jpg" style="width: 80px;">
+                    <h3 style="font-weight: bold">Electrical & communication Group</h3>
+                    <p>
+                        The electrical and communication group is responsible for powering various segments of the rover and ensure a stable communication with the parts of the rover from the base station. This group is in charge of providing power to the rover and managing the electronic parts. They design and develop the best power distribution system for the mechanical parts of the rover. The group is also responsible for controlling of the rover and hauling the camera feeds from various points back to the base station for better movement and maximum view of the environment. The group design custom printed circuit boards for the sensor interface and motor control. They ensure a strong, wireless RF communication link between the base station and the rover.
+                    </p>
+                </div>
+
+                <div class="col span-1-of-2 box">
+                    <img src="./resources/img/mechanical.jpg" style="width: 80px;">
+                    <h3 style="font-weight: bold">Mechanical group</h3>
+                    <p>
+                        The mechanical group is responsible for the design and manufacture of the rover body, arm, wheels, suspension, robot manipulator, soil collection mechanism, chassis, mounts and other mechanical parts. The mechanical group designs and builds a multiple degree of freedom robotic arm for completing the tasks of the competition. The group provides the basic skeleton of the rover. The group also performs various analysis of the rover components for better strength and mobility. The group develops the drive and suspension system to drive through the hard, inconsistent surface of the martial terrain while protecting sensitive equipment and scientific samples from vibration.
+
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col span-1-of-2 box ">
+                    <img src="./resources/img/software.png" style="width: 80px;">
+                    <h3 style="font-weight: bold">Software Group</h3>
+                    <p>
+                        The software group is responsible for autonomy, perception, teleportation and the embedded software of the rover. The group is in charge of the autonomous tasks using artificial intelligence. The group develops the code to process the information about the environment around the rover which helps the rover to effectively traverse the course. The autonomous system developed by the group creates a closed loop scenario where various sensors communicate with each other to control the rover. The group maintain the GUI used by human drivers to control the rover and develop control solutions for complex systems (such as robotic arm) to improve accuracy and usability.
+                    </p>
+                </div>
+
+                <div class="col span-1-of-2 box">
+                    <img src="./resources/img/science.png" style="width: 80px;">
+                    <h3 style="font-weight: bold">Science group</h3>
+                    <p>
+                        The science group is responsible for performing tests to analyze collected and off-board samples and developing in suit life detection hardware for the rover. The group performs comprehensive analysis of the biological, geological and chemical aspects of a given area. The group performs scientific tasks using the methods like chemical assays, spectroscopy, microscopy or any other method that can collect several independent samples and determine their habitability without contaminating the samples.
+
+                    </p>
+                </div>
             </div>
 
 
 
 
+            <div class="row">
+                <div class="col span-2-of-2 box ">
+                    <img src="./resources/img/non-tech.png" style="width: 80px;">
+                    <h3 style="font-weight: bold">Non-technical Group</h3>
+                    <p>
+                        The non-technical team is in charge of organizing corporate sponsorships, grants and other fundraising opportunities. The group is responsible for all non-technical work of the team such as- finance, public relations, community outreach events, sponsorship letters, videos for advertisement & sponsors, videography, branding, rover reports and other non-technical tasks of the team. The group is also responsible for the smooth functioning of the team’s work and managing of all events.
+                    </p>
+                </div>
 
-            <!-- <div class="col span-1-of-3 box">
-                <ion-icon name="globe" class="icon-big"></ion-icon>
-                <h3>MISSION</h3>
-                <p>
-                    Our Mission is to build a rover (Mongol-E v 3.0) which can perform all tasks according to the rule
-                    book of ERC – 2019.
 
-                </p>
-            </div> -->
+            </div>
 
         </div>
+
+
+
+
+        <div class="row" style="margin-bottom: 15px;">
+
+            <h2>Our Rovers</h2>
+            <h3 class="rover-name">M o n g o l- E v 4</h3>
+
+            <!-- <img src="resources/img/rovers/Mongol_E_v4_ERC-2020.jpeg" class="rover-image"> -->
+
+
+            <h3 style="font-weight: bold;">ERC 2019</h1>
+            <p  style="letter-spacing: 1px;">
+            Our Mongol-E v 4.0, for the ERC-2019, was designed by the lesson learnt from our previous University Rover Challenges experience. We modified many parts of the rover to perform better in ERC-2019. This year We implemented a counter-link mechanism for proper balancing and strength of chassis and suspension system. We upgraded the drill design so that it can reach up to 30cm deep down the soil. We also changed the previous structure of wheel for proper traction and strength of the wheel. We located the arm in the middle of the rover so that the arm can operate smoothly without any major vibration. The total weight of our rover was 40 kg after mounting all components. To power our rover, we used 4 Lithium Polymer Batteries of 12-volt, 22 Ah each. We used total 5 cameras (4 analog cameras each of 1.3 MP resolution & 1 digital camera of 20MP resolution). We have designed separate custom made PCB for serving different purposes. To give life to our rover we used low cost gas sensors, temperature sensors, UV sensors and humidity sensors which are mounted on the rover for atmospheric and soil property measurement. The working time of our rover was 55 minutes. 
+We placed 16Th position with total score of 181,5 in the ERC-2019 competing different rover teams from different universities around the globe. 
+
+            </p>
+        </div>
+
+
+        <div class="row">
+        <h3 class="rover-name">Mongol-E v2</h3>
+        <img src="resources/img/rovers/Mongol E v2 URC-2016.jpg" class="rover-image">
+        <h3 style="font-weight: bold;">URC 2016</h1>
+
+        <p  style="letter-spacing: 1px;">
+        We, Team Interplanetar designed Mongol-E v42.1 rover for the University rover challenge 2016. Our Mongol-E v2.1 has custom-designed wheels which were made with the help of CNC technology. We have used aluminum alloy for our rover structure. We have implemented counter-link mechanism for our suspension to run smoothly and overcome any kind of obstacle. The main chassis were made of square ss channels to coupled with the suspension. Our arm has 6 degree of freedom with infinite rotation of end effector. Our rover can carry weight up to 7kg with great stability. Inverse kinematics were used to control the manipulator to perform various tasks.  For the rover eyes we used total 4 cameras. 2 of were mounted at the end of the manipulator for better viewing angle while performing the tasks. In the electrical section we designed & build individual custom-designed PCB for wheel motors, communication devices, manipulator and on-board science tasks. In the communication sector we used different frequency band for data transmitting and video transmitting. The rover is capable of finding out the shortest path between 2-way points with the help of on-board GPS module. We have used convolutional neural network algorithm for detecting an object and find that out. A cluster of raspberry pi were used to process the deep learning algorithms. Our rover can avoid any obstacles and autonomously navigate itself to the destination. It can detect obstacles with close range 3D mapping ability and overall 2D mapping of the environment. For science task we automated the scientific chambers and two specially designed reaction chamber for on-board testing of the samples. An auger drill tool is used for collecting the soil samples. Various sensors are mounted with the auger tool for analyze soil characteristics. Our rover can determine the availability of various nutrients and micro-organisms in the soil.   
+Our team secured 5th position in the Phobos group and 1st position in Bangladesh at University Rover Challenge- 2016 with the total score of 213 among 14 teams in the group and 42 teams in total from different universities around the world.
+
+            </p>
+        </div>
+
+
+        <div class="row">
+        <h3 class="rover-name">Anweshan v2.0</h3>
+        <img src="resources/img/rovers/Anweshan-v2-IRDC-2020.jpg" class="rover-image">
+        <h3 style="font-weight: bold;">IRDC 2020</h1>
+        <p  style="letter-spacing: 1px;">
+        We designed our Anweshan v2.0 rover for the Indian Rover Design Challenge -2020. This year IRDC took the whole competition online because of the worldwide COVID-19 pandemic situation. Team Interplanetar designed a fully functional rover that can survive & operate in the Martian terrain. Past experience of Mars rovers has proved that Martian surfaces are a combination of rocky and sandy terrain. Therefore, we have chosen the rocker-bogie suspension system with a bar differential mechanism to allow our rover to traverse in rocky terrain with ease. We also upgraded our wheel design. We are using Nitinol wire mesh spring tires which provide superior traction on such terrain while sustaining large loads. To power up our rover, we have two 24V, 8Ah on board batteries. Solar panels are used to recharge the batteries when the rover is in sunlight. The total mass of the rover, with all its peripherals mounted, amounts to 42kg. Via SolidWorks simulations, it is seen that the rover can sustain a total load of 50kg while maintaining its normal speed. The end effector of our arm is a two-claw gripper with a wide surface area which allows it to lift objects of a variety of shapes. The arm of our rover has 6 degrees of freedom. For the scientific analysis we have mounted external sensors that are used to take readings such as temperature and pressure of the air and also concentrations of gases such as CO2, CH4 and O2. Our newly designed auger drill is used to collect soil samples from a depth of 10cm. There are three digital cameras and one depth camera to give vision to our rover. We have introduced a thermal control system for our batteries to keep them within their allowable temperature limits in the environment of mars.
+
+In the IRDC-2020 Team Interplanater proudly secured 11th position with a total score of 655.5 among 28 teams from different universities. And stood 2nd in Bangladesh.
+            </p>
+        </div>
+
+
+        <div class="row">
+        <h3 class="rover-name">Mongol-E v1</h3>
+        <img src="resources/img/rovers/Mongol_E_v1_ERC-2015.jpg" class="rover-image">
+        <h3 style="font-weight: bold;">ERC-2015</h1>
+
+        
+        <p  style="letter-spacing: 1px;">
+        ERC-2015 was the first international rover challenge that our team, Team Interplanetar participated. The ERC-2015 was a whole new experience for the team. The team worked day and night to design & build our Mongol-E v2.0 rover. We build a fully functional rover that can traverse in the Martian terrain. Our mechanical sub-team designed the body, manipulator and the wheels of the rover. The team also introduced counter-link mechanism for the suspension. The chassis was built with the aluminium alloy. We made custom-designed wheels for our rover. In the electrical department we made individual custom PCB for our different components. For the communication we separated the bands for image and data transmission. Our software team has developed the algorithm for the autonomous task and navigation for the rover. With the cameras and sensors on board the rover can observe the environment and make a 3D map of the environment. In the scientific analysis task, we mounted a auger drill to collect the soil samples. We designed a reaction chamber and mounted sensors to analyze the samples. 
+In the ERC-2015 our Team Interplanetar stood 19th worldwide with the total score of 135.
+
+            </p>
+        </div>
+
+
+
+
+        <div class="row">
+        <h3 class="rover-name">Anweshan v 1.0</h3>
+        <img src="resources/img/rovers/Anweshan_V1_ERC-2020.JPG" class="rover-image">
+        <h3 style="font-weight: bold;">European Rover Challenge 2020</h1>
+
+        
+        <p  style="letter-spacing: 1px;">
+        Our Anweshan v 1 Rover   is   controlled   via Wi-Fi communication   system.   Basic Components of our rover are -Wheel,  Suspension  and  Damper,  Chassis,  Manipulator,  End  Effectors. We choose our Rover  material  to  be lightweight  preferably  aluminum,  stainless  steel  alloy  sheet  or  nylon  and  the  structure  design is optimized  and compact to keep it within the weight limit. The wheels have enough traction to travel through the Martian sandy and rocky terrain while carrying the load, and the suspension system enables the rover to pass through the slopes,  turns  and  rocky  terrain  while  maintaining  balance,   our rover  body  is  able  to  hold  and  protect  all  the integral  parts.  An  arm  with  6  degrees  of  freedom  is  attached  at  the  front  of  the  chassis.  The  6  DOF  is achievable by  combining  the  motion  of  3  actuators  in  the  vertical  plane,  one  base  stepper  motor  to  control  the position +in the horizontal plane. The rover is equipped with easily accessible red emergency stop button. It will disrupt power to all motors and actuators and PCB’s. Also, industrial indicator lamp which remains active for 5 seconds to inform its readiness to receive commands before each task.
+            </p>
+        </div>
+
+
 
         <div class="row">
             <div class="col span-1-of-2 box ">
                 <div class="iframe-container">
-                    <<iframe width="560" height="315" src="https://www.youtube.com/embed/dBPkO6nYWxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i0aBEcISIXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                </div>
+            </div>
+
+
+            <div class="col span-1-of-2 box">
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wPJTPhpdQgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+        </div>
+        
+
+
+        <div class="row">
+            <div class="col span-1-of-2 box ">
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dBPkO6nYWxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                 </div>
             </div>
@@ -133,33 +273,6 @@ require_once './controller/messageController.php';
 
 
         </div>
-
-
-
-
-        <!-- <div class="row js--wp-1">
-            <div class="col span-1-of-2 box">
-                <ion-icon name="settings" class="icon-big"></ion-icon>
-                <h3>FACILITIES</h3>
-                <p>
-                    We avail the best Lab facility of Bangladesh here in BUET like Robotics Lab, ME Machine Shop, CSE AI
-                    Lab, BME Signal Processing Lab, NAME Structure Lab etc.
-                </p>
-            </div>
-
-            <div class="col span-1-of-2 box">
-                <ion-icon name="hand" class="icon-big"></ion-icon>
-                <h3>SPONSORS</h3>
-                <p>
-                    Our sponsors are our partners and we give priorities to their branding and outreach. For further
-                    information, Donation or Sponsorship, click here .
-
-                </p>
-            </div>
-
-
-
-        </div> -->
 
 
 
@@ -263,20 +376,6 @@ require_once './controller/messageController.php';
 
 
                     <div class="row">
-                        <!-- <div class="col span-1-of-6 box member-img">
-                            <div style="text-align: center;">
-                                <figure>
-                                    <img src="resources/img/members/2020/Mechanical/mech-1.png" alt="" class="img-responsive">
-
-                                </figure>
-
-                                <a href="https://www.facebook.com/waheduzzaman.nouman">
-                                    <h4>Md. Waheduzzaman Nouman</h4>
-                                </a>
-                            </div>
-
-
-                        </div> -->
 
 
 
@@ -295,7 +394,7 @@ require_once './controller/messageController.php';
 
                         </div>
 
-                    
+
                     </div>
 
                 </div>
@@ -1242,70 +1341,7 @@ require_once './controller/messageController.php';
 
 
 
-    <!-- <section class="section-meals">
 
-        <div class="row">
-
-            <h2>Some moments</h2>
-
-
-        </div>
-
-
-        <ul class="meals-showcase">
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/1.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/2.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/3.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/4.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-        </ul>
-
-
-        <ul class="meals-showcase">
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/5.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/6.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/7.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-
-            <li>
-                <figure class="meal-photo">
-                    <img src="resources/img/8.jpg" alt="Working with the rover">
-                </figure>
-            </li>
-        </ul>
-
-    </section> -->
 
 
 
@@ -2139,7 +2175,6 @@ require_once './controller/messageController.php';
         <div class="row">
             <div class="col span-1-of-6 box sponsor-img-div">
                 <img src="resources/img/sponsors/1r.jpg" alt="Sponsor image" class="sponsor-img">
-                <!-- <h3>Blue Ribbon Associates</h3> -->
             </div>
 
             <div class="col span-1-of-6 box sponsor-img-div">
@@ -2173,6 +2208,15 @@ require_once './controller/messageController.php';
         </div>
 
 
+        <div class="row">
+            <h2>Support</h2>
+        </div>
+
+        <p class="long-copy">
+        Thanks to all for believing and supporting us. We are thankful to Ankur International for their support. You can support us from <a target="_blank" href="https://ankurintl.org/project/buet-project/">Ankur International</a>  through PayPal. You small help will give us hope and encourage us to do better in future.
+            </p>
+
+
 
     </section>
 
@@ -2183,7 +2227,7 @@ require_once './controller/messageController.php';
         </div>
 
         <div class="row" style="text-align: center;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.602055470808!2d90.39079895067684!3d23.72590089555276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8dd436bf19b%3A0x1ebdf28957cc329b!2sFaculty%20of%20Mechanical%20Engineering!5e0!3m2!1sen!2sbd!4v1594371020413!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.602055470808!2d90.39079895067684!3d23.72590089555276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8dd436bf19b%3A0x1ebdf28957cc329b!2sFaculty%20of%20Mechanical%20Engineering!5e0!3m2!1sen!2sbd!4v1594371020413!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
             <p class="long-copy" style="font-weight: bold">
                 Model and Project Lab, Department of Mechanical Engineering, BUET, Dhaka-1000 <br />
@@ -2191,11 +2235,9 @@ require_once './controller/messageController.php';
                 Email: interplanetar.buet@gmail.com <br />
 
             </p>
-            <!-- Model and Project Lab, Department of Mechanical Engineering, BUET, Dhaka-1000 <br />
-            Contact number: +8801757148635<br />
-            Email: interplanetar.buet@gmail.com<br /> -->
+
         </div>
-            
+
         <div class="row">
 
             <form action="#" method="post" class="contact-form">
@@ -2269,7 +2311,7 @@ require_once './controller/messageController.php';
         </div>
 
 
-        
+
 
     </section>
 
@@ -2313,10 +2355,7 @@ require_once './controller/messageController.php';
         </div>
     </footer>
 
-    <!-- 
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div> -->
+
 
 
 
@@ -2344,14 +2383,6 @@ require_once './controller/messageController.php';
 
 
     <script>
-        // $('body').addClass('stop-scrolling');
-        // $('body').bind('touchmove', function (e) { e.preventDefault() })
-
-        // $(window).on("load", function () {
-        //     $(".loader-wrapper").fadeOut("slow");
-        //     $('body').unbind('touchmove');
-        //     $('body').removeClass('stop-scrolling');
-        // });
         function nestImageInsideAnchorForLightBox(tagNameWithClass) {
 
             let momentImages = document.querySelectorAll(tagNameWithClass + " img");
@@ -2399,7 +2430,6 @@ require_once './controller/messageController.php';
             let expGallery = $('.exp a').simpleLightbox();
             let momentsGallery = $('.moments a').simpleLightbox();
 
-            // populateMemberSelection();
 
 
         });
@@ -2430,43 +2460,6 @@ require_once './controller/messageController.php';
             });
 
         }
-
-        // $(window).on('resize scroll', function () {
-
-        //     addAnimation('about-us', 'slideInDown');
-        //     addAnimation('moments-header', 'flash');
-        //     addAnimation('moments-header', 'zoomIn');
-        //     addAnimation('achievements-header', 'zoomIn');
-        //     addAnimation('member-header', 'zoomIn');
-
-        // });
-
-    //     // Initialize and add the map
-    //     function initMap() {
-    //         // The location of Uluru 23.726193, 90.394184
-    //         var uluru = {
-    //             lat: 23.726193,
-    //             lng: 90.394184
-    //         };
-    //         // The map, centered at Uluru
-    //         var map = new google.maps.Map(
-    //             document.getElementById('map'), {
-    //                 zoom: 4,
-    //                 center: uluru
-    //             });
-    //         // The marker, positioned at Uluru
-    //         var marker = new google.maps.Marker({
-    //             position: uluru,
-    //             map: map
-    //         });
-    //     }
-    
-    // <!--Load the API from the specified URL
-    // * The async attribute allows the browser to render the page while the API loads
-    // * The key parameter will contain your own API key (which is not needed for this tutorial)
-    // * The callback parameter executes the initMap() function
-    // -->
-    
     </script>
 
 </body>

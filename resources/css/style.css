@@ -11,6 +11,7 @@
 Orange color: #e67e22
 */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -766,3 +767,28 @@ footer p {
 
 
 
+
+
+
+
+.rover-name {
+    display: flex;
+    flex-direction: row;
+    color: teal; text-align: center; text-transform: none; letter-spacing: 3px;
+  }
+.rover-name:before, .rover-name:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+.rover-name:before {
+    margin-right: 10px
+}
+.rover-name:after {
+    margin-left: 10px
+}
+
+.rover-image {
+    width: 100%;
+}
